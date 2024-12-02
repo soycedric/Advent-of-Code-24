@@ -42,7 +42,7 @@
 [forks-url]: https://github.com/soycedric/Advent-of-Code-24/network/members
 [stars-shield]: https://img.shields.io/github/stars/soycedric/Advent-of-Code-24.svg?style=for-the-badge
 [stars-url]: https://github.com/soycedric/Advent-of-Code-24/stargazers
-[issues-shield]: soycedric/Advent-of-Code-24.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/soycedric/Advent-of-Code-24.svg?style=for-the-badge
 [issues-url]: https://github.com/soycedric/Advent-of-Code-24/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/cedric-olivier/
