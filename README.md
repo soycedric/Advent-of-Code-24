@@ -27,6 +27,9 @@
   <p align="center">
     <a href="https://github.com/soycedric/Advent-of-Code-24/tree/master/1"><strong>1 December 2024</strong></a>
     <br />
+        <a href="https://github.com/soycedric/Advent-of-Code-24/tree/master/2"><strong>2 December 2024</strong></a>
+    <br />
+
 
   </p>
 </div>
