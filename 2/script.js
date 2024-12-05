@@ -44,7 +44,8 @@ fs.readFile(filePath, 'utf8', (err, data) => {
         return;
     }
 
-    let countReports = 0; // Contador de líneas que cumplen las condiciones
+    let countReports = 0;  // Contador de líneas que cumplen las condiciones
+    let noCountReports = 0; // Contador de líneas que no cumplen las condiciones
     const lines = data.trim().split('\n'); // Dividir el contenido en líneas
 
     lines.forEach((line, index) => {
@@ -64,6 +65,7 @@ fs.readFile(filePath, 'utf8', (err, data) => {
                 countReports += 1;
                 console.log(`Línea ${index + 1}: Cumple las condiciones.`);
             } else {
+                noCountReports += 1;
                 console.log(`Línea ${index + 1}: No cumple las condiciones.`);
             }
         } else {
@@ -72,4 +74,5 @@ fs.readFile(filePath, 'utf8', (err, data) => {
     });
 
     console.log(`Total de líneas que cumplen las condiciones: ${countReports}`);
+    console.log(`Total de líneas que no cumplen las condiciones: ${noCountReports}`);
 });
